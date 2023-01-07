@@ -238,3 +238,6 @@ eval "set -- $(
     )" '"$@"'
 
 exec "$JAVACMD" "$@"
+
+- name: Make gradlew executable
+        run: chmod +x ./gradlew
